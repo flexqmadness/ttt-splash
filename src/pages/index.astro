@@ -10,19 +10,14 @@ import SplashMessage from '../components/SplashMessage.astro';
 
 
 <Layout title="TTT Splash" description="Custom TTT Loading Screen with random Tips.">
-  <section class="splash grid place-items-center">
+  <section class="splash">
     <Image
     src={Background}
-    class:list="h-screen min-w-screen object-cover opacity-30"
+    class:list="background-image"
     alt=""
     />
 
-    <section class="loadingscreen
-      z-10
-      max-w-[32ch]
-      flex flex-col items-center gap-8
-      text-center text-neutral-200
-    ">
+    <section class="loadingscreen">
       <Spinner />
       <SplashMessage />
     </section>
@@ -33,7 +28,29 @@ import SplashMessage from '../components/SplashMessage.astro';
 
 
 <style>
-  .splash :global(*) {
+
+  .splash {
+    display: grid;
+    place-items: center;
+  }
+
+  .splash * {
     grid-area: 1 / 1 / -1 / -1;
   }
+
+  .background-image {
+    min-width: 100vw; min-height: 100vh;
+    object-fit: cover;
+    opacity: .3;
+  }
+
+  .loadingscreen {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--neutral-200);
+  }
+
 </style>

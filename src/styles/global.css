@@ -1,19 +1,32 @@
-@import "tailwindcss";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-@theme {
+
+
+@keyframes clockwise {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes counterClockwise {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+
+:root {
 
   --animate-spinClockwise: clockwise 5s linear infinite;
   --animate-spinCounterClockwise: counterClockwise 5s linear infinite;
 
-
-  @keyframes clockwise {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-
-  @keyframes counterClockwise {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(-360deg); }
-  }
+  --cyan-400: oklch(78.9% .154 211.53);
+  --purple-500: oklch(62.7% .265 303.9);
+  --pink-500: oklch(65.6% .241 354.308);
+  --slate-500: oklch(55.4% .046 257.417);
+  --slate-800: oklch(27.9% .041 260.031);
+  --neutral-200: oklch(92.2% 0 0);
 
 }
