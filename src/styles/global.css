@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+
+  --animate-spinClockwise: clockwise 5s linear infinite;
+  --animate-spinCounterClockwise: counterClockwise 5s linear infinite;
+
+
+  @keyframes clockwise {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  @keyframes counterClockwise {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+  }
+
+}

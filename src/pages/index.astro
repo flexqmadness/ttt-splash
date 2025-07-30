@@ -1,7 +1,39 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets'
+import Background from '../assets/gmod-wallpaper.jpg'
+
+import Layout from '../layouts/Splash.astro';
+import Spinner from '../components/Spinner.astro';
+import SplashMessage from '../components/SplashMessage.astro';
 ---
 
-<Layout>
-  <h1>lorem ipsum</h1>
+
+
+<Layout title="TTT Splash" description="Custom TTT Loading Screen with random Tips.">
+  <section class="splash grid place-items-center">
+    <Image
+    src={Background}
+    class:list="h-screen min-w-screen object-cover opacity-30"
+    alt=""
+    />
+
+    <section class="loadingscreen
+      z-10
+      max-w-[32ch]
+      flex flex-col items-center gap-8
+      text-center text-neutral-200
+    ">
+      <Spinner />
+      <SplashMessage />
+    </section>
+
+  </section>
 </Layout>
+
+
+
+<style>
+  .splash :global(*) {
+    grid-area: 1 / 1 / -1 / -1;
+  }
+</style>
