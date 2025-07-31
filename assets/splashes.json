@@ -1,17 +1,29 @@
 [
-  { "text": "Trust no one. Except maybe the guy with the shotgun behind you. He definitely looks trustworthy." },
+  {
+    "text": "Trust no one. Except maybe the guy with the shotgun behind you. He definitely looks trustworthy.",
+    "image": "traitor-wallpaper.jpg"
+  },
   { "text": "Pro tip: Standing still and staring at someone suspiciously makes you look totally innocent." },
   { "text": "Don't worry, that explosion was probably part of the map… probably." },
   { "text": "If you hear beeping, it's either a bomb or someone microwaving a burrito." },
-  { "text": "Remember: Your friends are only innocent until proven lucrative." },
+  {
+    "text": "Remember: Your friends are only innocent until proven lucrative.",
+    "image": "traitor-wallpaper.jpg"
+  },
   { "text": "Reloading your weapon lets everyone know where you are. So, reload more often." },
   { "text": "Falling off the map is the fastest way to clear your name." },
   { "text": "Detectives have fancy gadgets. Traitors have bombs. Innocents have… hope." },
-  { "text": "Remember: Your best friend is probably a traitor. Also, your worst enemy. And maybe you too." },
+  {
+    "text": "Remember: Your best friend is probably a traitor. Also, your worst enemy. And maybe you too.",
+    "image": "traitor-wallpaper.jpg"
+  },
   { "text": "If you die in the game, you die in… oh wait, no, you just get to watch everyone else screw up." },
   { "text": "Looking innocent is the fastest way to get shot first." },
   { "text": "Press F to pay respects. Or plant a bomb. It depends on your role, really." },
-  { "text": "Yes, you can kill your friends. No, you shouldn't feel bad about it." },
+  {
+    "text": "Yes, you can kill your friends. No, you shouldn't feel bad about it.",
+    "image": "traitor-wallpaper.jpg"
+  },
   {
     "text": "Detectives are just traitors with fancier hats.",
     "image": "detective-wallpaper.jpg"
@@ -37,7 +49,10 @@
     "image": "glados-wallpaper.jpg"
   },
   { "text": "Remember: If you die, it's probably because you didn't listen to this loading screen." },
-  { "text": "Remember: If you can't trust your friends, who can you trust? Oh right, no one." },
+  {
+    "text": "Remember: If you can't trust your friends, who can you trust? Oh right, no one.",
+    "image": "traitor-wallpaper.jpg"
+  },
   {
     "text": "I'm Torgue, and I am here to ask you one question, and one question only: EXPLOSIONS?!",
     "image": "torgue-wallpaper.jpg"
@@ -47,7 +62,10 @@
     "image": "tina-wallpaper.jpg"
   },
   { "text": "Innocents: Your main weapon is paranoia. And bullets. Mostly bullets." },
-  { "text": "Traitors win by teamwork… or by being the last one standing. Usually the second one." },
+  {
+    "text": "Traitors win by teamwork… or by being the last one standing. Usually the second one.",
+    "image": "traitor-wallpaper.jpg"
+  },
   { "text": "Explosive barrels are just misunderstood friends who want a hug." },
   { "text": "Jumping off the roof will not prove your innocence, but it will make you memorable." },
   {
@@ -58,15 +76,24 @@
   { "text": "The round ends faster if you 'accidentally' press the C4 remote." },
   { "text": "If someone says 'Trust me', prepare your obituary and last will." },
   { "text": "Corpse inspections are like Christmas: You never know what you're gonna get." },
-  { "text": "Hiding the body doesn't erase the crime, but it does delay the revenge." },
+  {
+    "text": "Hiding the body doesn't erase the crime, but it does delay the revenge.",
+    "image": "traitor-wallpaper.jpg"
+  },
   { "text": "Ladders: Nature's way of saying 'Please fall to your death.'" },
   { "text": "Ragdolls are the true art of TTT. Pose them with pride." },
-  { "text": "AFK players make great bait. They also make great corpses." },
+  {
+    "text": "AFK players make great bait. They also make great corpses.",
+    "image": "traitor-wallpaper.jpg"
+  },
   { "text": "Pro tip: Yelling 'I'm innocent!' is not legally binding." },
   { "text": "Never trust a player who 'just wants to test their gun.'" },
   { "text": "There are two types of players: The one planting C4, and the one about to find it the hard way." },
   { "text": "If you find C4, congratulations! You're now in the blast radius." },
-  { "text": "Traitor tip: The best alibi is being the last survivor." },
+  {
+   "text": "Traitor tip: The best alibi is being the last survivor.",
+    "image": "traitor-wallpaper.jpg"
+  },
   { "text": "Sometimes the best strategy is to panic in a circle." },
   {
     "text": "Detective gadgets are expensive. Please break them responsibly.",
