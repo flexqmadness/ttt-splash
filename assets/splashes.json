@@ -12,7 +12,10 @@
   { "text": "Looking innocent is the fastest way to get shot first." },
   { "text": "Press F to pay respects. Or plant a bomb. It depends on your role, really." },
   { "text": "Yes, you can kill your friends. No, you shouldn't feel bad about it." },
-  { "text": "Detectives are just traitors with fancier hats." },
+  {
+    "text": "Detectives are just traitors with fancier hats.",
+    "image": "detective-wallpaper.jpg"
+  },
   { "text": "Remember: The other person reading this is probably about to betray you." },
   { "text": "Explosions are nature's way of saying »stop asking questions.«" },
   { "text": "The DNA scanner won't help you if you're already dead. Trust me, I checked." },
@@ -47,7 +50,10 @@
   { "text": "Traitors win by teamwork… or by being the last one standing. Usually the second one." },
   { "text": "Explosive barrels are just misunderstood friends who want a hug." },
   { "text": "Jumping off the roof will not prove your innocence, but it will make you memorable." },
-  { "text": "Detectives – Half investigator, half bullet magnet." },
+  {
+    "text": "Detectives – Half investigator, half bullet magnet.",
+    "image": "detective-wallpaper.jpg"
+  },
   { "text": "If someone follows you into a small room, it's either friendship or murder. Probably murder." },
   { "text": "The round ends faster if you 'accidentally' press the C4 remote." },
   { "text": "If someone says 'Trust me', prepare your obituary and last will." },
@@ -62,6 +68,9 @@
   { "text": "If you find C4, congratulations! You're now in the blast radius." },
   { "text": "Traitor tip: The best alibi is being the last survivor." },
   { "text": "Sometimes the best strategy is to panic in a circle." },
-  { "text": "Detective gadgets are expensive. Please break them responsibly." },
+  {
+    "text": "Detective gadgets are expensive. Please break them responsibly.",
+    "image": "detective-wallpaper.jpg"
+  },
   { "text": "TTT Rule #1: Whoever laughs maniacally is guilty. Including you." }
 ]
