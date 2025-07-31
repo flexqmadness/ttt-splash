@@ -17,10 +17,19 @@ const setSplashMessage = (elementID, message) => {
   catch (error) { throw new Error(`Failed to set splash message: ${error}`) }
 }
 
+const setSplashBackground = (elementID, imageName) => {
+  const splashBackground = document.getElementById(elementID)
+  if (splashBackground) {
+    splashBackground.src = `assets/img/${imageName}`
+  }
+}
 
 ;(async function (){
 
   const splashes = await getData('assets/splashes.json')
-  return setSplashMessage('js-splash-message', getRandomArrayEntry(splashes))
+  const splashObj = getRandomArrayEntry(splashes)
+  if(splashObj.image) setSplashBackground('js-splash-background', splashObj.image)
+  setSplashMessage('js-splash-message', splashObj.text)
 
+  return
 })()
